@@ -1,0 +1,15 @@
+artifact_uri: /Users/jaa1090/Documents/RLClass/week-3-intro-to-marl-Jkaslam/submission/mlflow/891273121600007711/36c761fc75b5408e88cf7ef53451254c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '891273121600007711'
+lifecycle_stage: active
+run_id: 36c761fc75b5408e88cf7ef53451254c
+run_name: CentralizedCritic_MultiGrid-CompetativeRedBlueDoor-v3-CTDE-Red_b02c7_00000
+run_uuid: 36c761fc75b5408e88cf7ef53451254c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695866382179
+status: 1
+tags: []
+user_id: unknown

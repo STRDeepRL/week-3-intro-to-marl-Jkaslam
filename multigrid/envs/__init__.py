@@ -208,7 +208,7 @@ CONFIGURATIONS = {
                     "invalid_pickup_dense_penalty": 0.001,
                 },
             },
-            "randomization": True,
+            "randomization": False,
         },
     ),
     "MultiGrid-CompetativeRedBlueDoor-v3-CTCE-Red-Eval": (

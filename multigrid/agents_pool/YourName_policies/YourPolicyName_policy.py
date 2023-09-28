@@ -21,7 +21,7 @@ class YourPolicyName_Policy(Policy):
         self.policy_name = policy_name  # future todo  - Should this be multiple or indiviaul, current is not individual
         self.reward_schemes = {
             self.policy_id: {
-                "eliminated_opponent_sparse_reward": 0.5,
+                "eliminated_opponent_sparse_reward": 0.8,
                 "key_pickup_sparse_reward": 0.5,
                 "ball_pickup_dense_reward": 0.5,
                 "dense_reward_discount_factor": {"ball_carrying_discount_factor": 0.9},

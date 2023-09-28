@@ -1,5 +1,5 @@
-from multigrid.agents_pool.YourName_policies.YourPolicyName_policy_v2 import YourPolicyNameV2_Policy
-from multigrid.agents_pool.YourName_policies.YourPolicyName_policy import YourPolicyName_Policy
+from multigrid.agents_pool.JaiAslam_policies.YourPolicyName_policy_v2 import YourPolicyNameV2_Policy
+from multigrid.agents_pool.JaiAslam_policies.YourPolicyName_policy import YourPolicyName_Policy
 
 SubmissionPolicies = {
     "your_policy_name": YourPolicyName_Policy,
