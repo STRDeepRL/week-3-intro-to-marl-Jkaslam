@@ -202,7 +202,7 @@ def train(
                 progress_reporter=reporter,
                 checkpoint_config=air.CheckpointConfig(
                     checkpoint_at_end=True,
-                    checkpoint_frequency=10,
+                    checkpoint_frequency=2,
                 ),
                 storage_path=save_dir,
                 # callbacks=callbacks, # future fix

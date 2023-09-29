@@ -59,7 +59,9 @@ def get_checkpoint_dir(search_dir: Path | str | None) -> Path | None:
     """
     if search_dir:
         checkpoints = Path(search_dir).expanduser().glob("**/*.is_checkpoint")
+        print(checkpoints)
         if checkpoints:
+            #print(sorted(checkpoints, key=os.path.getmtime)[-1].parent)
             return sorted(checkpoints, key=os.path.getmtime)[-1].parent
 
     return None
